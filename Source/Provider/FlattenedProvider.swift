@@ -87,7 +87,21 @@ struct FlattenedProvider: ItemProvider {
     
     func visibleIndexes(visibleFrame: CGRect) -> [Int] {
         var visible = [Int]()
-        //todolist
+        for sectionIndex in provider.visibleIndexes(visibleFrame: visibleFrame) {
+            let beginIndex = childSections[sectionIndex].beginIndex
+            if let sectionData = childSections[sectionIndex].sectionData {
+                let sectionFrame = provider.frame(at: sectionIndex)
+                let intersectFrame = visibleFrame.intersection(sectionFrame)
+                let visibleFrameForCell = CGRect(origin: intersectFrame.origin - sectionFrame.origin, size: intersectFrame.size)
+                let sectionVisible = sectionData.visibleIndexes(visibleFrame: visibleFrameForCell)
+                for item in sectionVisible {
+                    visible.append(item + beginIndex)
+                }
+            }
+            else {
+                visible.append(beginIndex)
+            }
+        }
         return visible
     }
     
@@ -101,5 +115,29 @@ struct FlattenedProvider: ItemProvider {
         else {
             return provider.frame(at:sectionIndex)
         }
+    }
+    
+    func animator(at: Int) -> Animator? {
+        return apply(at) {
+            $0.animator(at: $1)
+        } ?? provider.animator(at:at)
+    }
+    
+    func willReload() {
+        provider.willReload()
+    }
+    
+    func didReload() {
+        provider.didReload()
+    }
+    
+    func didTap(view: UIView, at: Int) {
+        return apply(at) {
+            $0.didTap(view: view, at: $1)
+        }
+    }
+    
+    func hasReloadable(_ reloadable: CollectionReloadable) -> Bool {
+        return provider.hasReloadable(reloadable)
     }
 }

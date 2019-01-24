@@ -32,13 +32,13 @@ extension CGRect {
     var bounds: CGRect {
         return CGRect(origin: .zero, size: size)
     }
-    
-    func - (left: CGPoint,right: CGPoint) -> CGPoint {
-        return CGPoint(x: left.x - right.x,  y: left.y - right.y)
-    }
-    
-    func += (left: inout CGPoint, right: CGPoint) {
-        left.x += right.x
-        left.y += right.y
-    }
+}
+
+func - (left: CGPoint,right: CGPoint) -> CGPoint {
+    return CGPoint(x: left.x - right.x,  y: left.y - right.y)
+}
+
+func += (left: inout CGPoint, right: CGPoint) {
+    left.x += right.x
+    left.y += right.y
 }

@@ -25,6 +25,8 @@
 		4FF2BE6721F83DDF00527C66 /* UIScrollView+CollectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6621F83DDF00527C66 /* UIScrollView+CollectionKit.swift */; };
 		4FF2BE6B21F85FB400527C66 /* FlattenedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6A21F85FB400527C66 /* FlattenedProvider.swift */; };
 		4FF2BE6D21F861A500527C66 /* SectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6C21F861A500527C66 /* SectionProvider.swift */; };
+		4FF2BE7021F95AFB00527C66 /* UIView+CollectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6F21F95AFB00527C66 /* UIView+CollectionKit.swift */; };
+		4FF2BE7221F95EA000527C66 /* CollectionReuseViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		4FF2BE6621F83DDF00527C66 /* UIScrollView+CollectionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CollectionKit.swift"; sourceTree = "<group>"; };
 		4FF2BE6A21F85FB400527C66 /* FlattenedProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenedProvider.swift; sourceTree = "<group>"; };
 		4FF2BE6C21F861A500527C66 /* SectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionProvider.swift; sourceTree = "<group>"; };
+		4FF2BE6F21F95AFB00527C66 /* UIView+CollectionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CollectionKit.swift"; sourceTree = "<group>"; };
+		4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReuseViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,16 +155,13 @@
 		4F31A2D921F6F71C002C49DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4FF2BE6E21F9598E00527C66 /* Extensions */,
 				4FF2BE6921F85F8700527C66 /* Protocol */,
 				4FF2BE6821F85F5700527C66 /* Provider */,
 				4F31A2DA21F6F7B9002C49DA /* CollectionView.swift */,
 				4F31A2DE21F6FEAF002C49DA /* Animator.swift */,
-				4F31A2E021F70029002C49DA /* Util.swift */,
 				4F31A2E221F7074B002C49DA /* CollectionReloadable.swift */,
-				4F31A2E421F70CF5002C49DA /* ItemProvider.swift */,
-				4F31A2E621F7206C002C49DA /* LayoutableProvider.swift */,
-				4F31A2E821F808FF002C49DA /* EmptyCollectionProvider.swift */,
-				4FF2BE6621F83DDF00527C66 /* UIScrollView+CollectionKit.swift */,
+				4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -169,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				4FF2BE6A21F85FB400527C66 /* FlattenedProvider.swift */,
+				4F31A2E821F808FF002C49DA /* EmptyCollectionProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -178,8 +180,20 @@
 			children = (
 				4F31A2DC21F6F93A002C49DA /* Provider.swift */,
 				4FF2BE6C21F861A500527C66 /* SectionProvider.swift */,
+				4F31A2E421F70CF5002C49DA /* ItemProvider.swift */,
+				4F31A2E621F7206C002C49DA /* LayoutableProvider.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4FF2BE6E21F9598E00527C66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE6621F83DDF00527C66 /* UIScrollView+CollectionKit.swift */,
+				4FF2BE6F21F95AFB00527C66 /* UIView+CollectionKit.swift */,
+				4F31A2E021F70029002C49DA /* Util.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF2BE6B21F85FB400527C66 /* FlattenedProvider.swift in Sources */,
+				4FF2BE7021F95AFB00527C66 /* UIView+CollectionKit.swift in Sources */,
 				4F31A2DF21F6FEAF002C49DA /* Animator.swift in Sources */,
 				4FF2BE6721F83DDF00527C66 /* UIScrollView+CollectionKit.swift in Sources */,
 				4F31A2E121F70029002C49DA /* Util.swift in Sources */,
@@ -326,6 +341,7 @@
 				4F31A2AC21F6F556002C49DA /* AppDelegate.swift in Sources */,
 				4F31A2E521F70CF5002C49DA /* ItemProvider.swift in Sources */,
 				4F31A2E721F7206C002C49DA /* LayoutableProvider.swift in Sources */,
+				4FF2BE7221F95EA000527C66 /* CollectionReuseViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
