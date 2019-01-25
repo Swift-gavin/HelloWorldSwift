@@ -23,7 +23,10 @@ extension CollectionReloadable {
         collectionView?.reloadData()
     }
     
-    public func setNeedsReload(){
+    public func setNeedsReload() {
+        collectionView?.setNeedsReload()
+    }
+    public func setNeedsInvalidateLayout() {
         collectionView?.setNeedsInvalidateLayout()
     }
 }

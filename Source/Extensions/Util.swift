@@ -32,6 +32,21 @@ extension CGRect {
     var bounds: CGRect {
         return CGRect(origin: .zero, size: size)
     }
+    var transposed: CGRect {
+        return CGRect(origin: origin.transposed, size: size.transposed)
+    }
+}
+
+extension CGSize {
+    var transposed: CGSize {
+        return CGSize(width: height, height: width)
+    }
+}
+
+extension CGPoint {
+    var transposed: CGPoint {
+        return CGPoint(x: y, y: x)
+    }
 }
 
 func - (left: CGPoint,right: CGPoint) -> CGPoint {

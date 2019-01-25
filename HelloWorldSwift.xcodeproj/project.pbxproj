@@ -27,6 +27,24 @@
 		4FF2BE6D21F861A500527C66 /* SectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6C21F861A500527C66 /* SectionProvider.swift */; };
 		4FF2BE7021F95AFB00527C66 /* UIView+CollectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE6F21F95AFB00527C66 /* UIView+CollectionKit.swift */; };
 		4FF2BE7221F95EA000527C66 /* CollectionReuseViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */; };
+		4FF2BE7621FAB6B100527C66 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7521FAB6B100527C66 /* DataSource.swift */; };
+		4FF2BE7821FAB85C00527C66 /* ClosureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7721FAB85C00527C66 /* ClosureDataSource.swift */; };
+		4FF2BE7A21FABA3A00527C66 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7921FABA3A00527C66 /* ArrayDataSource.swift */; };
+		4FF2BE7D21FABF9000527C66 /* ViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7C21FABF9000527C66 /* ViewSource.swift */; };
+		4FF2BE7F21FAE22D00527C66 /* AnyViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE7E21FAE22D00527C66 /* AnyViewSource.swift */; };
+		4FF2BE8121FAE36E00527C66 /* ClosureViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8021FAE36E00527C66 /* ClosureViewSource.swift */; };
+		4FF2BE8421FAEB5C00527C66 /* SizeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8321FAEB5C00527C66 /* SizeSource.swift */; };
+		4FF2BE8621FAEBDB00527C66 /* ClosureSizeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8521FAEBDB00527C66 /* ClosureSizeSource.swift */; };
+		4FF2BE8821FAF11500527C66 /* SimpleViewSizeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8721FAF11500527C66 /* SimpleViewSizeSource.swift */; };
+		4FF2BE8B21FAF83100527C66 /* SimpleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8A21FAF83100527C66 /* SimpleAnimator.swift */; };
+		4FF2BE8D21FAFB6B00527C66 /* ScaleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8C21FAFB6B00527C66 /* ScaleAnimator.swift */; };
+		4FF2BE8F21FB013100527C66 /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE8E21FB013100527C66 /* FadeAnimator.swift */; };
+		4FF2BE9221FB03DF00527C66 /* SimpleViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9121FB03DF00527C66 /* SimpleViewProvider.swift */; };
+		4FF2BE9421FB04B300527C66 /* BasicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9321FB04B300527C66 /* BasicProvider.swift */; };
+		4FF2BE9721FB058200527C66 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9621FB058200527C66 /* Layout.swift */; };
+		4FF2BE9921FB070100527C66 /* LayoutContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9821FB070100527C66 /* LayoutContext.swift */; };
+		4FF2BE9B21FB091800527C66 /* TransposeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9A21FB091800527C66 /* TransposeLayout.swift */; };
+		4FF2BE9D21FB093F00527C66 /* WrapperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2BE9C21FB093F00527C66 /* WrapperLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +91,24 @@
 		4FF2BE6C21F861A500527C66 /* SectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionProvider.swift; sourceTree = "<group>"; };
 		4FF2BE6F21F95AFB00527C66 /* UIView+CollectionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CollectionKit.swift"; sourceTree = "<group>"; };
 		4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReuseViewManager.swift; sourceTree = "<group>"; };
+		4FF2BE7521FAB6B100527C66 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		4FF2BE7721FAB85C00527C66 /* ClosureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDataSource.swift; sourceTree = "<group>"; };
+		4FF2BE7921FABA3A00527C66 /* ArrayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
+		4FF2BE7C21FABF9000527C66 /* ViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSource.swift; sourceTree = "<group>"; };
+		4FF2BE7E21FAE22D00527C66 /* AnyViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewSource.swift; sourceTree = "<group>"; };
+		4FF2BE8021FAE36E00527C66 /* ClosureViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewSource.swift; sourceTree = "<group>"; };
+		4FF2BE8321FAEB5C00527C66 /* SizeSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeSource.swift; sourceTree = "<group>"; };
+		4FF2BE8521FAEBDB00527C66 /* ClosureSizeSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSizeSource.swift; sourceTree = "<group>"; };
+		4FF2BE8721FAF11500527C66 /* SimpleViewSizeSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewSizeSource.swift; sourceTree = "<group>"; };
+		4FF2BE8A21FAF83100527C66 /* SimpleAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimator.swift; sourceTree = "<group>"; };
+		4FF2BE8C21FAFB6B00527C66 /* ScaleAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimator.swift; sourceTree = "<group>"; };
+		4FF2BE8E21FB013100527C66 /* FadeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
+		4FF2BE9121FB03DF00527C66 /* SimpleViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewProvider.swift; sourceTree = "<group>"; };
+		4FF2BE9321FB04B300527C66 /* BasicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProvider.swift; sourceTree = "<group>"; };
+		4FF2BE9621FB058200527C66 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		4FF2BE9821FB070100527C66 /* LayoutContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutContext.swift; sourceTree = "<group>"; };
+		4FF2BE9A21FB091800527C66 /* TransposeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeLayout.swift; sourceTree = "<group>"; };
+		4FF2BE9C21FB093F00527C66 /* WrapperLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,11 +191,16 @@
 		4F31A2D921F6F71C002C49DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4FF2BE9521FB056C00527C66 /* Layout */,
+				4FF2BE9021FB03C400527C66 /* Addon */,
+				4FF2BE8921FAF80900527C66 /* Animator */,
+				4FF2BE8221FAEB0D00527C66 /* SizeSource */,
+				4FF2BE7B21FABF7A00527C66 /* ViewSource */,
+				4FF2BE7421FAB69C00527C66 /* DataSource */,
 				4FF2BE6E21F9598E00527C66 /* Extensions */,
 				4FF2BE6921F85F8700527C66 /* Protocol */,
 				4FF2BE6821F85F5700527C66 /* Provider */,
 				4F31A2DA21F6F7B9002C49DA /* CollectionView.swift */,
-				4F31A2DE21F6FEAF002C49DA /* Animator.swift */,
 				4F31A2E221F7074B002C49DA /* CollectionReloadable.swift */,
 				4FF2BE7121F95EA000527C66 /* CollectionReuseViewManager.swift */,
 			);
@@ -171,6 +212,7 @@
 			children = (
 				4FF2BE6A21F85FB400527C66 /* FlattenedProvider.swift */,
 				4F31A2E821F808FF002C49DA /* EmptyCollectionProvider.swift */,
+				4FF2BE9321FB04B300527C66 /* BasicProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -194,6 +236,66 @@
 				4F31A2E021F70029002C49DA /* Util.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FF2BE7421FAB69C00527C66 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE7521FAB6B100527C66 /* DataSource.swift */,
+				4FF2BE7721FAB85C00527C66 /* ClosureDataSource.swift */,
+				4FF2BE7921FABA3A00527C66 /* ArrayDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		4FF2BE7B21FABF7A00527C66 /* ViewSource */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE7C21FABF9000527C66 /* ViewSource.swift */,
+				4FF2BE7E21FAE22D00527C66 /* AnyViewSource.swift */,
+				4FF2BE8021FAE36E00527C66 /* ClosureViewSource.swift */,
+			);
+			path = ViewSource;
+			sourceTree = "<group>";
+		};
+		4FF2BE8221FAEB0D00527C66 /* SizeSource */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE8321FAEB5C00527C66 /* SizeSource.swift */,
+				4FF2BE8521FAEBDB00527C66 /* ClosureSizeSource.swift */,
+				4FF2BE8721FAF11500527C66 /* SimpleViewSizeSource.swift */,
+			);
+			path = SizeSource;
+			sourceTree = "<group>";
+		};
+		4FF2BE8921FAF80900527C66 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				4F31A2DE21F6FEAF002C49DA /* Animator.swift */,
+				4FF2BE8A21FAF83100527C66 /* SimpleAnimator.swift */,
+				4FF2BE8C21FAFB6B00527C66 /* ScaleAnimator.swift */,
+				4FF2BE8E21FB013100527C66 /* FadeAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		4FF2BE9021FB03C400527C66 /* Addon */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE9121FB03DF00527C66 /* SimpleViewProvider.swift */,
+			);
+			path = Addon;
+			sourceTree = "<group>";
+		};
+		4FF2BE9521FB056C00527C66 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2BE9621FB058200527C66 /* Layout.swift */,
+				4FF2BE9821FB070100527C66 /* LayoutContext.swift */,
+				4FF2BE9A21FB091800527C66 /* TransposeLayout.swift */,
+				4FF2BE9C21FB093F00527C66 /* WrapperLayout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,16 +430,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF2BE6B21F85FB400527C66 /* FlattenedProvider.swift in Sources */,
+				4FF2BE8D21FAFB6B00527C66 /* ScaleAnimator.swift in Sources */,
 				4FF2BE7021F95AFB00527C66 /* UIView+CollectionKit.swift in Sources */,
+				4FF2BE8121FAE36E00527C66 /* ClosureViewSource.swift in Sources */,
+				4FF2BE8B21FAF83100527C66 /* SimpleAnimator.swift in Sources */,
+				4FF2BE9D21FB093F00527C66 /* WrapperLayout.swift in Sources */,
 				4F31A2DF21F6FEAF002C49DA /* Animator.swift in Sources */,
 				4FF2BE6721F83DDF00527C66 /* UIScrollView+CollectionKit.swift in Sources */,
+				4FF2BE9221FB03DF00527C66 /* SimpleViewProvider.swift in Sources */,
+				4FF2BE8421FAEB5C00527C66 /* SizeSource.swift in Sources */,
+				4FF2BE9921FB070100527C66 /* LayoutContext.swift in Sources */,
 				4F31A2E121F70029002C49DA /* Util.swift in Sources */,
 				4FF2BE6D21F861A500527C66 /* SectionProvider.swift in Sources */,
+				4FF2BE7621FAB6B100527C66 /* DataSource.swift in Sources */,
+				4FF2BE9B21FB091800527C66 /* TransposeLayout.swift in Sources */,
+				4FF2BE8F21FB013100527C66 /* FadeAnimator.swift in Sources */,
+				4FF2BE8621FAEBDB00527C66 /* ClosureSizeSource.swift in Sources */,
 				4F31A2DD21F6F93A002C49DA /* Provider.swift in Sources */,
 				4F31A2DB21F6F7B9002C49DA /* CollectionView.swift in Sources */,
 				4F31A2E921F808FF002C49DA /* EmptyCollectionProvider.swift in Sources */,
+				4FF2BE9721FB058200527C66 /* Layout.swift in Sources */,
+				4FF2BE7F21FAE22D00527C66 /* AnyViewSource.swift in Sources */,
+				4FF2BE8821FAF11500527C66 /* SimpleViewSizeSource.swift in Sources */,
+				4FF2BE7A21FABA3A00527C66 /* ArrayDataSource.swift in Sources */,
 				4F31A2E321F7074B002C49DA /* CollectionReloadable.swift in Sources */,
 				4F31A2AE21F6F556002C49DA /* ViewController.swift in Sources */,
+				4FF2BE9421FB04B300527C66 /* BasicProvider.swift in Sources */,
+				4FF2BE7D21FABF9000527C66 /* ViewSource.swift in Sources */,
+				4FF2BE7821FAB85C00527C66 /* ClosureDataSource.swift in Sources */,
 				4F31A2AC21F6F556002C49DA /* AppDelegate.swift in Sources */,
 				4F31A2E521F70CF5002C49DA /* ItemProvider.swift in Sources */,
 				4F31A2E721F7206C002C49DA /* LayoutableProvider.swift in Sources */,
