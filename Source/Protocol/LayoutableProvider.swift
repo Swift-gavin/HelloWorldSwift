@@ -24,7 +24,7 @@ extension LayoutableProvider where Self: Provider {
     public func visibleIndexes(visibleFrame: CGRect) -> [Int] {
         return internalLayout.visibleIndexes(visibleFrame: visibleFrame)
     }
-    public func contentSize: CGSize {
+    public var contentSize: CGSize {
         return internalLayout.contentSize
     }
     public func frame(at: Int) -> CGRect {

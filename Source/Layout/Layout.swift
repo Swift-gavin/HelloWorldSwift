@@ -30,7 +30,10 @@ open class Layout {
 }
 
 extension Layout {
-//    public func transposed() -> TransposeLayout {
-//        
-//    }
+    public func transposed() -> TransposeLayout {
+        return TransposeLayout(self)
+    }
+    
+    //todolist
+//    public func inset(by insets: UIEdgeInsets) ->
 }
